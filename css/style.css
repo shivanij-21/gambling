@@ -2744,3 +2744,75 @@ nav.navbar .container {
         max-width: 151px;
     }
 }
+
+.center {
+    position: relative;
+    display: block;
+    /* top: 50%; */
+    left: 45%;
+    transform: translate(-50%,-50%);
+    width: auto;
+    margin-top: 72px;
+  }
+  .rs-list {
+    display: inline-block;
+    width: 900px;
+    margin: 0;
+    list-style: none;
+  }
+  .rs-list > li {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background: linear-gradient(to bottom, #ffd679 30%, #f7ac03 70%);
+    margin: 0px 14px;
+    transform: rotate(45deg);
+    text-align: center;
+    transition: all 0.7s;
+  }
+  .rs-list > li:hover {
+    border-radius: 50%;
+    transform: rotate(405deg);
+  }
+  .social_btn {
+    line-height: 50px !important;
+    color: white;
+    font-size: 30px !important;
+    transform: rotate(-45deg);
+    transition: all 0.7s;
+    /* width: 100px; */
+  }
+  .rs-list > li:hover > i {
+    transform: rotate(-405deg);
+  }
+  
+  .rs-list > li[class*=google]:hover {
+    background: #943184;
+  }
+  .rs-list > li[class*=facebook]:hover {
+    background: #943184;
+  }
+  .rs-list > li[class*=twitter]:hover {
+    background: #943184;
+  }
+  .rs-list > li[class*=instagram]:hover {
+    background: #943184;
+  }
+  .rs-list > li[class*=pinterest]:hover {
+    background: #943184;
+  }
+
+  @media screen and (max-width:767px) {
+    .rs-list > li{
+        width: 35px;
+        height: 35px;
+        margin: 0px 10px;
+    }
+    .social_btn{
+        font-size: 20px !important;
+        line-height: 38px !important;
+    }
+    .rs-list{
+        margin-left: 7px;
+    }
+  }
