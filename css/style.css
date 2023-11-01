@@ -843,13 +843,13 @@ p {
 
 /* === nav-toggle === */
 
-ul.tog-nav li a {
+/* ul.tog-nav li a {
     opacity: 0 !important;
-}
+} */
 
-.full_nav .nav.tog-nav > li {
+/* .full_nav .nav.tog-nav > li {
     visibility: hidden;
-}
+} */
 
 .full_nav .nav > li:last-child {
     visibility: visible;
@@ -961,7 +961,7 @@ nav.navbar .container {
     height: 45px;
     width: 45px;
     border-radius: 50%;
-    border: 1px solid #e8a004;
+    /* border: 1px solid #e8a004; */
     color: #e8a004;
     background: transparent;
     padding: 10px 14px;
@@ -2823,6 +2823,13 @@ nav.navbar .container {
     line-height: 1.2;
     margin-top: 16px;
   }
+
+  .title2 {
+    font-size: 1.3rem;
+    font-weight: bold;
+    line-height: 1.2;
+    margin-top: 5px;
+  }
   
   /* .copy {
     font-family: var(--font-serif);
@@ -3006,4 +3013,10 @@ nav.navbar .container {
   }
   .purple{
     color: #5c2ea0;
+  }
+  .fa-credit-card::before{
+    font-size: 70px;
+  }
+  .fa-lock::before{
+    font-size: 70px;
   }
