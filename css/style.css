@@ -2774,7 +2774,7 @@ nav.navbar .container {
   }
   @media (min-width: 600px) {
     .card {
-      height: 267px;
+      height: 250px;
     }
   }
   .card:before {
