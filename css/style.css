@@ -1473,12 +1473,12 @@ nav.navbar .container {
     transition: all .4s ease-in;
 }
 
-.port_img {
+/* .port_img {
     position: relative;
     overflow: hidden;
     transition: all .4s ease-in;
     margin-bottom: 30px;
-}
+} */
 
 .port_img img {
     width: 100%;
@@ -2774,7 +2774,7 @@ nav.navbar .container {
   }
   @media (min-width: 600px) {
     .card {
-      height: 230px;
+      height: 267px;
     }
   }
   .card:before {
@@ -2829,6 +2829,39 @@ nav.navbar .container {
     font-weight: bold;
     line-height: 1.2;
     margin-top: 5px;
+  }
+
+  .title3 {
+    font-size: 1.3rem;
+    font-weight: bold;
+    line-height: 1.2;
+    margin-top: 22px;
+  }
+
+  .title4 {
+    font-size: 1.3rem;
+    font-weight: bold;
+    line-height: 1.2;
+    margin-top: 23px;
+  }
+
+  .title5 {
+    font-size: 1.3rem;
+    font-weight: bold;
+    line-height: 1.2;
+    margin-top: 9px;
+  }
+
+  .world_logo{
+    margin-top: 9px;
+  }
+
+  .lotus_logo{
+    margin-top: 6px;
+  }
+
+  .bblogo{
+    margin-top: 20px;
   }
   
   /* .copy {
@@ -2926,7 +2959,7 @@ nav.navbar .container {
     padding: 8px 10px;
 }
 .copy{
-    width: 155px
+    width: 160px
 }
 @media screen and (max-width:767px) {
     .site{
