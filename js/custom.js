@@ -29,46 +29,24 @@ $(function () {
     });
 
 
-    $('.full_nav .nav > li > .more-less').on('click', function () {
-        $('.full_nav .nav').toggleClass("tog-nav");
-        $('.full_nav .nav').toggleClass("fa-time");
-    });
-
-    //animation scroll js
-    var nav = $('nav'),
-        navOffset = nav.offset().top,
-        $window = $(window);
-    /* navOffset ends */
+    // Add a click event listener to the menu icon
+document.getElementById('menu-icon').addEventListener('click', function () {
+    var menu = document.querySelector('.tog-nav');
+    menu.classList.toggle('open');
     
-    var html_body = $('html, body');
-    $('nav a').on('click', function () {
-        if (location.pathname.replace(/^\//, '') === this.pathname.replace(/^\//, '') && location.hostname === this.hostname) {
-            var target = $(this.hash);
-            target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-            if (target.length) {
-                html_body.animate({
-                    scrollTop: target.offset().top - 80
-                }, 1000);
-                return false;
-            }
-        }
-    });
+    // Toggle the display of the menu icon and close icon
+    var menuIcon = document.querySelector('.fa-times');
+    var closeIcon = document.querySelector('.fa-align-right');
+    
+    if (menu.classList.contains('open')) {
+        menuIcon.style.display = 'none';
+        closeIcon.style.display = 'inline';
+    } else {
+        menuIcon.style.display = 'inline';
+        closeIcon.style.display = 'none';
+    }
+});
 
-
-    // navbar js ends here
-
-    // this is for back to top js
-    var bc2top = $('#back-top-btn');
-    bc2top.on('click', function () {
-        html_body.animate({
-            scrollTop: 0
-        }, 1300);
-    });
-
-    // Closes responsive menu when a scroll link is clicked
-    $('.nav-link').on('click', function () {
-        $('.navbar-collapse').collapse('hide');
-    });
     
       
     /* -------------------------------------
