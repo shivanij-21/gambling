@@ -145,7 +145,7 @@ document.getElementById('menu-icon').addEventListener('click', function () {
     /* -------------------------------------
 	          Preloader				
 	 	-------------------------------------- */
-    $('.preloader').delay(2500).fadeOut(1000);
+    $('.preloader').delay(700).fadeOut(1000);
 
 
 });
