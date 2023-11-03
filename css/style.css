@@ -499,7 +499,7 @@ p {
 .casino-btn a {
     position: relative;
     display: inline-block;
-    /* font-size: 24px; */
+    font-size: 24px;
     vertical-align: top;
     text-align: center;
     letter-spacing: 1px;
@@ -843,23 +843,20 @@ p {
 
 /* === nav-toggle === */
 
-/* Initially hide the close icon */
-ul.tog-nav.open li a {
-    opacity: 1 !important;
-}
-
-/* Style for closed menu */
-ul.tog-nav li a {
+/* ul.tog-nav li a {
     opacity: 0 !important;
-}
+} */
 
-.full_nav .nav.tog-nav > li {
+/* .full_nav .nav.tog-nav > li {
+    visibility: hidden;
+} */
+
+.full_nav .nav > li:last-child {
     visibility: visible;
 }
 
-/* Hide the close icon by default */
-.fa.fa-align-right {
-    display: none;
+.full_nav .nav > li {
+    visibility: visible;
 }
 
 .navbar-brand > img {
@@ -869,7 +866,6 @@ ul.tog-nav li a {
 .navbar-toggle {
     display: none;
 }
-
 
 /* == menu css start == */
 
@@ -960,12 +956,12 @@ nav.navbar .container {
 .full_nav .nav > li:last-child {
     cursor: pointer;
     position: absolute;
-    right: 25px;
+    right: 119px;
     top: 14px;
     height: 45px;
     width: 45px;
     border-radius: 50%;
-    border: 1px solid #e8a004;
+    /* border: 1px solid #e8a004; */
     color: #e8a004;
     background: transparent;
     padding: 10px 14px;
@@ -976,9 +972,9 @@ nav.navbar .container {
     -o-transition: all 0.5s ease;
 }
 
-/* .menu-inner.tog-nav .fa-times {
+.menu-inner.tog-nav .fa-times {
     opacity: 0;
-} */
+}
 
 .menu-inner.tog-nav i.fa-align-right {
     opacity: 1;
@@ -1429,7 +1425,7 @@ nav.navbar .container {
 
 .port-text {
     position: absolute;
-    top: 30%;
+    top: 50%;
     transform: translate(-50%, -50%);
     left: 50%;
 }
@@ -1439,7 +1435,7 @@ nav.navbar .container {
     top: 92px;
     left: 50%;
     transform: translateX(-50%);
-    width: 300px;
+    width: 200px;
 }
 
 .port-text-btm h3 {
@@ -1469,7 +1465,7 @@ nav.navbar .container {
     top: 0%;
     left: 0%;
     right: 0%;
-    background: rgb(0 0 0 / 94%);
+    background: rgba(0, 0, 0, 0.7);
     overflow: hidden;
     width: 100%;
     height: 100%;
@@ -2778,7 +2774,7 @@ nav.navbar .container {
   }
   @media (min-width: 600px) {
     .card {
-      height: 250px;
+      height: 267px;
     }
   }
   .card:before {
@@ -3056,7 +3052,4 @@ nav.navbar .container {
   }
   .fa-lock::before{
     font-size: 70px;
-  }
-  .spin-img{
-    margin-top: 199px;
   }

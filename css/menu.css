@@ -326,11 +326,6 @@ nav {
     height: 40px;
     }
 
-    .fa.fa-align-right {
-        display: block !important;
-        margin-top: 5px;
-    }
-
 
     .button.menu-opened:after {
         -webkit-transition: all .3s ease;
