@@ -35,8 +35,8 @@ document.getElementById('menu-icon').addEventListener('click', function () {
     menu.classList.toggle('open');
     
     // Toggle the display of the menu icon and close icon
-    var menuIcon = document.querySelector('.fa-times');
-    var closeIcon = document.querySelector('.fa-align-right');
+    var menuIcon = document.querySelector('.fa-align-right');
+    var closeIcon = document.querySelector('.fa-times');
     
     if (menu.classList.contains('open')) {
         menuIcon.style.display = 'none';
