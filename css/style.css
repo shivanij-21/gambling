@@ -1395,6 +1395,11 @@ nav.navbar .container {
     outline: 0;
 }
 
+.nav-menu.active.show{
+    color: #e8a004 ;
+    background-color: transparent;
+}
+
 .nav-menu:active,
 .nav-menu.is-checked {
     background-color: transparent;
@@ -3061,4 +3066,7 @@ nav.navbar .container {
   } */
   .get_btn{
     font-size: 17px !important;
+  }
+  .live_logo{
+    margin-top: 67px;
   }
