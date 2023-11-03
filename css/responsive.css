@@ -555,6 +555,12 @@ font-size: 28px;
 }
 
 @media only screen and (max-width: 767px) {
+
+    .live_logo{
+        width: 91%;
+        margin-left: 14px;
+    }
+    
     .in-project {
         padding-bottom: 0;
     }

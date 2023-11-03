@@ -504,7 +504,7 @@ p {
     text-align: center;
     letter-spacing: 1px;
     line-height: 24px;
-    color: #fefefe;
+    color: #fefefe !important;
     font-weight: 400;
     font-family: "Anton";
     padding: 13px 30px;
@@ -1393,6 +1393,11 @@ nav.navbar .container {
 .nav-menu:hover {
     color: #e8a004;
     outline: 0;
+}
+
+.nav-menu.active.show{
+    color: #e8a004 ;
+    background-color: transparent;
 }
 
 .nav-menu:active,
@@ -3061,4 +3066,7 @@ nav.navbar .container {
   } */
   .get_btn{
     font-size: 17px !important;
+  }
+  .live_logo{
+    margin-top: 67px;
   }
