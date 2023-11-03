@@ -29,10 +29,23 @@ $(function () {
     });
 
 
-    $('.full_nav .nav > li > .more-less').on('click', function () {
-        $('.full_nav .nav').toggleClass("tog-nav");
-        $('.full_nav .nav').toggleClass("fa-time");
-    });
+    // Add a click event listener to the menu icon
+document.getElementById('menu-icon').addEventListener('click', function () {
+    var menu = document.querySelector('.tog-nav');
+    menu.classList.toggle('open');
+    
+    // Toggle the display of the menu icon and close icon
+    var menuIcon = document.querySelector('.fa-times');
+    var closeIcon = document.querySelector('.fa-align-right');
+    
+    if (menu.classList.contains('open')) {
+        menuIcon.style.display = 'none';
+        closeIcon.style.display = 'inline';
+    } else {
+        menuIcon.style.display = 'inline';
+        closeIcon.style.display = 'none';
+    }
+});
 
     //animation scroll js
     var nav = $('nav'),
