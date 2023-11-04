@@ -3061,12 +3061,18 @@ nav.navbar .container {
   .fa-lock::before{
     font-size: 70px;
   }
-  /* .spin-img{
-    margin-top: 199px;
-  } */
   .get_btn{
     font-size: 17px !important;
   }
   .live_logo{
     margin-top: 67px;
+  }
+  .fa-cubes:before{
+    font-size: 37px;
+  }
+  .fa-wand-magic-sparkles:before{
+    font-size: 36px;
+  }
+  .fa-turkish-lira-sign:before{
+    font-size: 36px;
   }
