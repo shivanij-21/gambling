@@ -664,7 +664,7 @@ font-size: 28px;
     }
 
     .fa-credit-card::before{
-        font-size: 55px;
+        font-size: 51px;
       }
       .fa-lock::before{
         font-size: 55px;
@@ -705,9 +705,9 @@ font-size: 28px;
         padding-top: 0px;
     }
 
-      .project-img .nav-menu {
-    font-size: 15px;
-              padding: 6px 10px;
+    .project-img .nav-menu {
+        font-size: 14px;
+        padding: 6px 10px;
 }
     .pro-row{
         padding-bottom: 30px;
@@ -1120,4 +1120,34 @@ font-size: 28px;
     .title1{
         max-width: 128px;
     }
+}
+
+@media screen and (max-width:653px) {
+    .casino-btn a{
+        font-size: 22px;
+    }
+    .heading h2{
+        font-size: 24px;
+    }
+    .control [class*=" flaticon-"]:before{
+        font-size: 40px;
+        /* margin-left: -2px !important; */
+    }
+    .fa-lock::before{
+        font-size: 45px;
+    }
+    .control-img{
+        padding: 22px 6px;
+    }
+    
+    /* @media (max-width:280px) and (min-width:653px) {
+        .rs-list > li{
+            width: 22px;
+        height: 24px;
+        }
+        .social_btn{
+            font-size: 14px !important;
+        line-height: 7px !important;
+        } 
+    } */
 }

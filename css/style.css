@@ -457,7 +457,7 @@ img {
 }
 
 .section {
-    padding-top: 80px;
+    padding-top: 77px;
 }
 ::selection {
     background: #ffcd04;
@@ -959,7 +959,7 @@ nav.navbar .container {
 .full_nav .nav > li:last-child {
     cursor: pointer;
     position: absolute;
-    right: 25px;
+    right: 11px;
     top: 14px;
     height: 45px;
     width: 45px;
