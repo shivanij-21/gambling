@@ -42,6 +42,12 @@
                     cssmenu.find('ul').hide().removeClass('open');
                 }
             };
+
+            // Close the menu when a menu item is clicked
+            cssmenu.find('li a').on('click', function() {
+                cssmenu.find('ul').hide().removeClass('open');
+            });
+
             resizeFix();
             return $(window).on('resize', resizeFix);
         });
