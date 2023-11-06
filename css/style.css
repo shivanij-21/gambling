@@ -877,6 +877,10 @@ nav.navbar .container {
     position: relative;
 }
 
+.contain{
+    padding-top: 59px;
+}
+
 .navbar-header {
     float: none;
     position: absolute;
@@ -3048,6 +3052,12 @@ nav.navbar .container {
     }
     .rs-list{
         margin-left: 7px;
+    }
+  }
+
+  @media (max-width:280px) {
+    .rs-list > li{
+        margin: 0px 3px;
     }
   }
   .white{

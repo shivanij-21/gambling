@@ -1143,14 +1143,7 @@ font-size: 28px;
         padding: 22px 6px;
     }
     
-    /* @media (max-width:280px) and (min-width:653px) {
-        .rs-list > li{
-            width: 22px;
-        height: 24px;
-        }
-        .social_btn{
-            font-size: 14px !important;
-        line-height: 7px !important;
-        } 
-    } */
+    .contain{
+        padding-top: 0px;
+    }
 }
