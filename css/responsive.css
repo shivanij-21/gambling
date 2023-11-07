@@ -741,6 +741,10 @@ font-size: 28px;
     .free-spin {
         text-align: center;
     }
+    .img-fluid{
+        height: 2px;
+        width: 100%;
+    }
 
     .running-img .img-fluid {
         margin-bottom: 30px;
