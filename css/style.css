@@ -968,7 +968,7 @@ nav.navbar .container {
     height: 45px;
     width: 45px;
     border-radius: 50%;
-    border: 1px solid #e8a004;
+    /* border: 1px solid #e8a004; */
     color: #e8a004;
     background: transparent;
     padding: 10px 14px;
@@ -1390,7 +1390,7 @@ nav.navbar .container {
     font-size: 20px;
     font-weight: 400;
     cursor: pointer;
-    text-transform: capitalize;
+    /* text-transform: capitalize; */
     outline: 0;
 }
 
@@ -1885,7 +1885,7 @@ nav.navbar .container {
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
-    width: 370px;
+    width: 480px;
 }
 
 .f-padding {
