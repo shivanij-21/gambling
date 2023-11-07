@@ -107,7 +107,7 @@ Author:         Ingenious_team
     .jackpots {
         padding-bottom: 20px;
     }
-
+    
     .run-txt {
         top: 60%;
     }
@@ -1034,7 +1034,9 @@ font-size: 28px;
     .winner-name h5 {
         font-size: 12px !important;
     }
-
+    .jack_section{
+        padding-top: 100px !important;
+    }
     .section {
         padding-top: 60px;
     }
