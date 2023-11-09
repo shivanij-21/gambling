@@ -107,7 +107,7 @@ Author:         Ingenious_team
     .jackpots {
         padding-bottom: 20px;
     }
-
+    
     .run-txt {
         top: 60%;
     }
@@ -745,6 +745,10 @@ font-size: 28px;
     .free-spin {
         text-align: center;
     }
+    .img-fluid{
+        height: 2px;
+        width: 100%;
+    }
 
     .running-img .img-fluid {
         margin-bottom: 30px;
@@ -1038,7 +1042,9 @@ font-size: 28px;
     .winner-name h5 {
         font-size: 12px !important;
     }
-
+    .jack_section{
+        padding-top: 100px !important;
+    }
     .section {
         padding-top: 60px;
     }

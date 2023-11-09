@@ -98,7 +98,9 @@ h1,h2,h3,h4,h5,h6,ol,ul,p,address,strong,i{margin-top:0;margin-bottom:0;line-hei
 body{overflow-x:hidden}
 #loading,.load-circle:before{bottom:0}
 .contact-page,.contact,.about-page,.banner-inner,.jackpots,.free-spin,.project-img,.how-start,.control,.faq,.contact-us{overflow:hidden}
-
+html{
+    scroll-behavior: smooth;
+}
 /*
 ==========================================
     Preloader
@@ -1263,7 +1265,7 @@ nav.navbar .container {
 .jackpots {
     padding-bottom: 60px;
 }
-
+ 
 .tour-jack {
     padding-bottom: 40px;
 }
