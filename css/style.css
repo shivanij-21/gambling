@@ -3451,7 +3451,7 @@ video {
     margin-top: -60px;
     margin-right: 3px;
 }
-.username{
+.fa-copy{
     float: right;
     margin-top: -19px;
     margin-right: 3px;
@@ -3460,4 +3460,9 @@ video {
     float: right;
     margin-top: -22px;
     margin-right: 3px
+}
+.fa-check{
+    float: right;
+    margin-top: -14px;
+    margin-right: 3px;
 }
