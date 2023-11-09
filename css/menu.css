@@ -11,7 +11,7 @@
 }
 
 .mobile {
-    background: #150035;
+    background: #0174BE;
     box-shadow: 0 0px 5px 0px rgba(0, 0, 0, .3);
     transition: all ease .9s;
 }
@@ -68,7 +68,8 @@ nav {
     font-size: 12px;
     letter-spacing: 1px;
     text-decoration: none;
-    color: #fff;
+    color: #000;
+    font-weight: 550;
     border-right: 1px solid #e0e0e0;
 }
 #cssmenu .login a {
@@ -254,7 +255,7 @@ nav {
     #cssmenu ul {
         width: 100%;
         display: none;
-        background: #150035;
+        background: #e4f1ffb8;
     }
     #cssmenu ul li {
         width: 100%;
