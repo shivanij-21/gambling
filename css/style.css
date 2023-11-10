@@ -2472,7 +2472,7 @@ nav.navbar .container {
   -webkit-perspective: 1000;
   margin: 0 auto 60px auto;
   width: 213px;
-  height: 213px;
+  height: 228px;
   border-radius: 15px;
   cursor:pointer;
 }
@@ -2488,7 +2488,7 @@ nav.navbar .container {
 
 .front {
   width: 213px;
-  height: 213px;
+  height: 228px;
   border-radius: 15px;
   -webkit-backface-visibility: hidden;
   position: absolute;
@@ -2516,7 +2516,7 @@ nav.navbar .container {
 
 .back {
   width: 213px;
-  height: 213px;
+  height: 228px;
   border-radius: 15px;
   -webkit-backface-visibility: hidden;
   position: absolute;
@@ -3434,6 +3434,12 @@ video {
         /* flex: 0 0 33.333333%; */
         max-width: 99.333333%;
     }
+    .swiper-slide{
+      height: 18.125rem;
+    }
+    .swiper-slide p{
+      font-weight: 300;
+    }
 }
 @media (min-width: 992px) and (max-width: 1199.98px){
     .col-sm-4 {
@@ -3466,3 +3472,240 @@ video {
     margin-top: -14px;
     margin-right: 3px;
 }
+
+/* our service */
+.our_service {
+    position: relative;
+    width: calc(min(90rem, 90%));
+    /* margin: 0 auto; */
+    /* min-height: 100vh; */
+    column-gap: 3rem;
+    /* padding-block: min(20vh, 3rem); */
+  }
+  
+  .bg {
+    position: fixed;
+    top: -4rem;
+    left: -12rem;
+    z-index: -1;
+    opacity: 0;
+  }
+  
+  .bg2 {
+    position: fixed;
+    bottom: -2rem;
+    right: -3rem;
+    z-index: -1;
+    width: 9.375rem;
+    opacity: 0;
+  }
+  
+  .our_service > div span {
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-size: 1rem;
+    color: #717171;
+  }
+  
+  .our_service > div h1 {
+    text-transform: capitalize;
+    letter-spacing: 0.8px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-size: clamp(3.4375rem, 3.25rem + 0.75vw, 4rem);
+    background-color: #005baa;
+    background-image: linear-gradient(45deg, #005baa, #000000);
+    background-size: 100%;
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+  }
+  
+  .our_service > div hr {
+    display: block;
+    background: #005baa;
+    height: 0.25rem;
+    width: 6.25rem;
+    border: none;
+    margin: 1.125rem 0 1.875rem 0;
+  }
+  
+  .our_service > div p {
+    line-height: 1.6;
+  }
+  
+  .our_service a {
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 500;
+    background: #0C356A;
+    border-radius: 3.125rem;
+    transition: 0.3s ease-in-out;
+  }
+  
+  .our_service > div > a {
+    border: 2px solid #c2c2c2;
+    margin-top: 2.188rem;
+    padding: 0.625rem 1.875rem;
+  }
+  
+  .our_service > div > a:hover {
+    border: 0.125rem solid #005baa;
+    color: #005baa;
+  }
+  
+  .swiper {
+    width: 100%;
+    padding-top: 3.125rem;
+  }
+  
+  .swiper-pagination-bullet,
+  .swiper-pagination-bullet-active {
+    background: #fff;
+  }
+  
+  .swiper-pagination {
+    bottom: 1.25rem !important;
+  }
+  
+  .swiper-slide {
+    width: 18.75rem;
+    height: 28.125rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: self-start;
+  }
+  
+  .swiper-slide h2 {
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 1.4;
+    margin-bottom: 0.625rem;
+    padding: 0 0 0 1.563rem;
+    text-transform: uppercase;
+  }
+  
+  .swiper-slide p {
+    color: #fdfeff;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    padding: 0 1.563rem;
+    line-height: 1.6;
+    font-size: 16px;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  
+  .swiper-slide a {
+    margin: -3.75rem 12.563rem 4.438rem 12.563rem;
+    padding: 0.438em 1.875rem;
+    font-size: 0.9rem;
+  }
+  
+  /* .swiper-slide a:hover {
+    color: #005baa;
+  } */
+  
+  .swiper-slide div {
+    display: none;
+    opacity: 0;
+    padding-bottom: 0.625rem;
+  }
+  
+  .swiper-slide-active div {
+    display: block;
+    opacity: 1;
+  }
+  
+  .swiper-slide--one {
+    background: url("../images/our-service-web/cric1.webp") no-repeat 50% 50%/cover;
+    background-size: contain;
+  }
+  
+  .swiper-slide--two {
+    background: url("../images/our-service-web/bet1.webp") no-repeat 50% 50%/cover;
+    background-size: contain;
+  }
+  
+  .swiper-slide--three {
+    background: url("../images/our-service-web/bookiees1.webp") no-repeat 50% 50%/cover;
+    background-size: contain;
+  }
+  
+  .swiper-slide--four {
+    background: url("../images/our-service-web/cric2.webp") no-repeat 50% 50%/cover;
+    background-size: contain;
+  }
+  
+  .swiper-slide--five {
+    background: url("../images/our-service-web/bet2.webp") no-repeat 50% 50%/cover;
+    background-size: contain;
+  }
+  .swiper-slide--six {
+    background: url("../images/our-service-web/bookiees2.webp") no-repeat 50% 50%/cover;
+    background-size: contain;
+  }
+  .swiper-slide--seven {
+    background: url("../images/our-service-web/cric3.webp") no-repeat 50% 50%/cover;
+    background-size: contain;
+  }
+  .swiper-slide--eight {
+    background: url("../images/our-service-web/bet3.webp") no-repeat 50% 50%/cover;
+    background-size: contain;
+  }
+  .swiper-slide--nine {
+    background: url("../images/our-service-web/bookiees3.webp") no-repeat 50% 50%/cover;
+    background-size: contain;
+  }
+  .swiper-slide--ten {
+    background: url("../images/our-service-web/cric4.webp") no-repeat 50% 50%/cover;
+    background-size: contain;
+  }
+  .swiper-slide--eleventh {
+    background: url("../images/our-service-web/bet4.webp") no-repeat 50% 50%/cover;
+    background-size: contain;
+  }
+  .swiper-slide--twoventh {
+    background: url("../images/our-service-web/bookiees4.webp") no-repeat 50% 50%/cover;
+    background-size: contain;
+  }
+  .swiper-slide--thirdteeth {
+    background: url("../images/our-service-web/cric5.webp") no-repeat 50% 50%/cover;
+    background-size: contain;
+  }
+  .swiper-slide--fourteeth {
+    background: url("../images/our-service-web/bookiees4.webp") no-repeat 50% 50%/cover;
+    background-size: contain;
+  }
+  
+  .swiper-3d .swiper-slide-shadow-left,
+  .swiper-3d .swiper-slide-shadow-right {
+    background-image: none;
+  }
+  
+  @media screen and (min-width: 48rem) {
+    .our_service {
+      display: flex;
+      align-items: center;
+    }
+  
+    .bg,
+  .bg2 {
+      opacity: 0.1;
+    }
+  }
+  @media screen and (min-width: 93.75rem) {
+    .swiper {
+      width: 85%;
+    }
+  }
+/* our service */
