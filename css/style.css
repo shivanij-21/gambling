@@ -3439,6 +3439,7 @@ video {
   .swiper {
     width: 100%;
     padding-top: 3.125rem;
+    padding-bottom: 3.125rem;
   }
   
   .swiper-pagination-bullet,
