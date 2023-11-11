@@ -979,7 +979,7 @@ nav.navbar .container {
     -moz-transition: all ease 0.5s;
     -ms-transition: all ease 0.5s;
     -o-transition: all ease 0.5s;
-    filter: drop-shadow(0 0px 20px #0C356A);
+    /* filter: drop-shadow(0 0px 20px #0C356A); */
 }
 
 .start-img [class^="flaticon-"]:before,
@@ -3606,7 +3606,7 @@ video {
   }
   
   .swiper-slide a {
-    margin: -3.75rem 12.563rem 4.438rem 12.563rem;
+    margin: 1.25rem 1.563rem 3.438rem 1.563rem;
     padding: 0.438em 1.875rem;
     font-size: 0.9rem;
   }
@@ -3637,7 +3637,7 @@ video {
   }
   
   .swiper-slide--three {
-    background: url("../images/our-service-web/bookiees1.webp") no-repeat 50% 50%/cover;
+    background: url("../images/our-service-web/babu1.webp") no-repeat 50% 50%/cover;
     background-size: contain;
   }
   
@@ -3651,7 +3651,7 @@ video {
     background-size: contain;
   }
   .swiper-slide--six {
-    background: url("../images/our-service-web/bookiees2.webp") no-repeat 50% 50%/cover;
+    background: url("../images/our-service-web/babu2.webp") no-repeat 50% 50%/cover;
     background-size: contain;
   }
   .swiper-slide--seven {
@@ -3663,7 +3663,7 @@ video {
     background-size: contain;
   }
   .swiper-slide--nine {
-    background: url("../images/our-service-web/bookiees3.webp") no-repeat 50% 50%/cover;
+    background: url("../images/our-service-web/babu3.webp") no-repeat 50% 50%/cover;
     background-size: contain;
   }
   .swiper-slide--ten {
@@ -3675,7 +3675,7 @@ video {
     background-size: contain;
   }
   .swiper-slide--twoventh {
-    background: url("../images/our-service-web/bookiees4.webp") no-repeat 50% 50%/cover;
+    background: url("../images/our-service-web/babu4.webp") no-repeat 50% 50%/cover;
     background-size: contain;
   }
   .swiper-slide--thirdteeth {
@@ -3683,7 +3683,7 @@ video {
     background-size: contain;
   }
   .swiper-slide--fourteeth {
-    background: url("../images/our-service-web/bookiees4.webp") no-repeat 50% 50%/cover;
+    background: url("../images/our-service-web/babu4.webp") no-repeat 50% 50%/cover;
     background-size: contain;
   }
   
