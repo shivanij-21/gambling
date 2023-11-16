@@ -715,6 +715,7 @@ font-size: 28px;
 }
     .free-spin {
     padding-bottom: 60px;
+    background-position-x: left;
 }
     .heading h3,
     .heading h2 {
