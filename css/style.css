@@ -3565,6 +3565,67 @@ video {
     background: url("../images/our-service-web/babu4.webp") no-repeat 50% 50%/cover;
     background-size: contain;
   }
+
+  .swiper-slide--one1 {
+    background: url("../images/our-service-mobile/cric1.webp") no-repeat 50% 50%/cover;
+    /* background-size: contain; */
+  }
+  
+  .swiper-slide--two1 {
+    background: url("../images/our-service-mobile/babu1.webp") no-repeat 50% 50%/cover;
+    /* background-size: contain; */
+  }
+  
+  .swiper-slide--three1 {
+    background: url("../images/our-service-mobile/cric1.webp") no-repeat 50% 50%/cover;
+    /* background-size: contain; */
+  }
+  
+  .swiper-slide--four1 {
+    background: url("../images/our-service-mobile/cric1.webp") no-repeat 50% 50%/cover;
+    /* background-size: contain; */
+  }
+  
+  .swiper-slide--five1 {
+    background: url("../images/our-service-mobile/cric1.webp") no-repeat 50% 50%/cover;
+    /* background-size: contain; */
+  }
+  .swiper-slide--six1 {
+    background: url("../images/our-service-mobile/cric1.webp") no-repeat 50% 50%/cover;
+    /* background-size: contain; */
+  }
+  .swiper-slide--seven1 {
+    background: url("../images/our-service-mobile/cric1.webp") no-repeat 50% 50%/cover;
+    /* background-size: contain; */
+  }
+  .swiper-slide--eight1 {
+    background: url("../images/our-service-mobile/cric1.webp") no-repeat 50% 50%/cover;
+    /* background-size: contain; */
+  }
+  .swiper-slide--nine1 {
+    background: url("../images/our-service-mobile/cric1.webp") no-repeat 50% 50%/cover;
+    /* background-size: contain; */
+  }
+  .swiper-slide--ten1 {
+    background: url("../images/our-service-mobile/cric1.webp") no-repeat 50% 50%/cover;
+    /* background-size: contain; */
+  }
+  .swiper-slide--eleventh1 {
+    background: url("../images/our-service-mobile/cric1.webp") no-repeat 50% 50%/cover;
+    /* background-size: contain; */
+  }
+  .swiper-slide--twoventh1 {
+    background: url("../images/our-service-mobile/cric1.webp") no-repeat 50% 50%/cover;
+    /* background-size: contain; */
+  }
+  .swiper-slide--thirdteeth1 {
+    background: url("../images/our-service-mobile/cric1.webp") no-repeat 50% 50%/cover;
+    /* background-size: contain; */
+  }
+  .swiper-slide--fourteeth1 {
+    background: url("../images/our-service-mobile/cric1.webp") no-repeat 50% 50%/cover;
+    /* background-size: contain; */
+  }
   
   .swiper-3d .swiper-slide-shadow-left,
   .swiper-3d .swiper-slide-shadow-right {
@@ -3587,6 +3648,10 @@ video {
       width: 85%;
     }
   }
+
+  .mobile-view .swiper-3d{
+    perspective: 176px !important;
+  }
 /* our service */
 
 .contact-us{
@@ -3596,4 +3661,9 @@ video {
   padding-top: 15px;
     text-align: center;
     background: #0C356A;
+}
+@media (min-width: 1200px){
+  .mobile-view{
+    display: none;
+  }
 }

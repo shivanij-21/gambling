@@ -16,10 +16,10 @@ var swiper = new Swiper(".swiper", {
     thresholdDelta: 70
   },
   loop: true,
-  autoplay: {
-    delay: 3000, // Adjust the delay (in milliseconds) between slides as needed
-    disableOnInteraction: false, // Set to false to continue autoplay even when user interacts with the swiper
-  },
+  // autoplay: {
+  //   delay: 3000, // Adjust the delay (in milliseconds) between slides as needed
+  //   disableOnInteraction: false, // Set to false to continue autoplay even when user interacts with the swiper
+  // },
   pagination: {
     el: ".swiper-pagination",
     clickable: true

@@ -17,6 +17,9 @@ Author:         Ingenious_team
 }
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
+    .mobile-view{
+        display: none;
+    }
     .side_search {
         width: 220px !important;
     }
@@ -560,6 +563,10 @@ font-size: 28px;
         max-width: 33.333333%;
     } */
 
+    .web-view{
+        display: none;
+    }
+
     .live_logo{
         width: 91%;
         margin-left: 14px;
@@ -1010,6 +1017,8 @@ font-size: 28px;
 }
 
 @media (min-width: 381px) and (max-width: 575px) {
+
+    
     .btn-filter {
         padding: 10px 0px;
         font-size: 16px;
