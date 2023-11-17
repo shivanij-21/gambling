@@ -220,6 +220,43 @@ p {
     animation: scan 8s infinite;
 }
 
+.control-pad:after {
+  position: absolute;
+  content: '';
+  border-bottom: 2px solid #290a59;
+  width: 3600px;
+  left: 50%;
+  top: 58px;
+  transform: translateX(-50%);
+}
+
+.jack-border:after {
+  position: absolute;
+  content: '';
+  border-bottom: 2px solid #290a59;
+  width: 350px;
+  left: 50%;
+  transform: translateX(-50%);
+  top: -23px;
+}
+
+.payments .border-effect1 {
+  position: absolute;
+  top: 45px;
+  z-index: 99;
+  width: 195px;
+  left: 33px;
+  animation: scan 8s infinite;
+}
+.payments .border-effect2 {
+  position: absolute;
+  top: 45px;
+  z-index: 99;
+  width: 190px;
+  left: 270px;
+  animation: scan2 8s infinite;
+}
+
 .border-effect2 {
     position: absolute;
     top: 44px;
