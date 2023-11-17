@@ -2099,7 +2099,8 @@ nav.navbar .container {
   top: 0;
   left: 0;
   z-index: 2;
-  background-color: #0C356A;
+  /* background-color: #0C356A; */
+  background: linear-gradient(to bottom, rgba(41, 86, 145, 1) 0%, rgba(41, 86, 145, 1) 11.7%, rgba(41, 86, 145, 1) 22.1%, rgba(31, 78, 139, 1) 31.2%, rgba(31, 78, 139, 1) 39.4%, rgba(12, 53, 106, 1) 46.6%, rgba(12, 53, 106, 1) 53.1%, rgba(12, 53, 106, 1) 58.9%, rgba(12, 53, 106, 1) 64.3%, rgba(12, 53, 106, 1) 69.3%, rgba(12, 53, 106, 1) 74.1%, rgba(12, 53, 106, 1) 78.8%, rgba(12, 53, 106, 1) 83.6%, rgba(12, 53, 106, 1) 88.7%, rgba(12, 53, 106, 1) 94.1%, rgba(12, 53, 106, 1) 100%);
 }
 
 .front h3 {
@@ -2131,7 +2132,8 @@ nav.navbar .container {
   font-size: 18px;
   font-family: "Poppins", sans-serif;
   color: white;
-  background-color: #0C356A;
+  /* background-color: #0C356A; */
+   background: linear-gradient(to bottom, rgba(41, 86, 145, 1) 0%, rgba(41, 86, 145, 1) 11.7%, rgba(41, 86, 145, 1) 22.1%, rgba(31, 78, 139, 1) 31.2%, rgba(31, 78, 139, 1) 39.4%, rgba(12, 53, 106, 1) 46.6%, rgba(12, 53, 106, 1) 53.1%, rgba(12, 53, 106, 1) 58.9%, rgba(12, 53, 106, 1) 64.3%, rgba(12, 53, 106, 1) 69.3%, rgba(12, 53, 106, 1) 74.1%, rgba(12, 53, 106, 1) 78.8%, rgba(12, 53, 106, 1) 83.6%, rgba(12, 53, 106, 1) 88.7%, rgba(12, 53, 106, 1) 94.1%, rgba(12, 53, 106, 1) 100%);
 }
 
 .back h5{
