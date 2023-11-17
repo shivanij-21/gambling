@@ -36,16 +36,16 @@ function copyUsernameToClipboard() {
 
     // Set a timeout to revert the icon back to the copy icon after a short delay (e.g., 2 seconds)
     setTimeout(() => {
-        copyIconU1.className = "fa fa-copy";
-        copyIconU2.className = "fa fa-copy";
-        copyIconU3.className = "fa fa-copy";
-        copyIconU4.className = "fa fa-copy";
-        copyIconU5.className = "fa fa-copy";
-        copyIconU6.className = "fa fa-copy";
-        copyIconU7.className = "fa fa-copy";
-        copyIconU8.className = "fa fa-copy";
-        copyIconU9.className = "fa fa-copy";
-        copyIconU10.className = "fa fa-copy";
+        copyIconU1.className = "fas fa-copy";
+        copyIconU2.className = "fas fa-copy";
+        copyIconU3.className = "fas fa-copy";
+        copyIconU4.className = "fas fa-copy";
+        copyIconU5.className = "fas fa-copy";
+        copyIconU6.className = "fas fa-copy";
+        copyIconU7.className = "fas fa-copy";
+        copyIconU8.className = "fas fa-copy";
+        copyIconU9.className = "fas fa-copy";
+        copyIconU10.className = "fas fa-copy";
 
     }, 2000); // 2000 milliseconds = 2 seconds
 
@@ -90,16 +90,16 @@ function copyPasswordToClipboard() {
 
     // Set a timeout to revert the icon back to the copy icon after a short delay (e.g., 2 seconds)
     setTimeout(() => {
-        copyIcon.className = "fa fa-copy";
-        copyIcon1.className = "fa fa-copy";
-        copyIcon3.className = "fa fa-copy";
-        copyIcon4.className = "fa fa-copy";
-        copyIcon5.className = "fa fa-copy";
-        copyIcon6.className = "fa fa-copy";
-        copyIcon7.className = "fa fa-copy";
-        copyIcon8.className = "fa fa-copy";
-        copyIcon9.className = "fa fa-copy";
-        copyIcon2.className = "fa fa-copy";
+        copyIcon.className = "fas fa-copy";
+        copyIcon1.className = "fas fa-copy";
+        copyIcon3.className = "fas fa-copy";
+        copyIcon4.className = "fas fa-copy";
+        copyIcon5.className = "fas fa-copy";
+        copyIcon6.className = "fas fa-copy";
+        copyIcon7.className = "fas fa-copy";
+        copyIcon8.className = "fas fa-copy";
+        copyIcon9.className = "fas fa-copy";
+        copyIcon2.className = "fas fa-copy";
 
 
     }, 2000); // 2000 milliseconds = 2 seconds
