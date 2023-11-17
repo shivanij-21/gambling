@@ -11,9 +11,6 @@ Author:         Ingenious_team
     .heading h2 {
         letter-spacing: 0;
     }
-    .error-txt h4 {
-    font-size: 110px;
-}
 }
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
@@ -157,42 +154,6 @@ Author:         Ingenious_team
         width: 55px;
     }
 
-    .foot-menu ul li a {
-        font-size: 16px;
-    }
-
-    .contact-app [class^="flaticon-"]:before,
-    .contact-app [class*=" flaticon-"]:before,
-    .contact-app [class^="flaticon-"]:after,
-    .contact-app [class*=" flaticon-"]:after {
-        margin-left: 0px !important;
-        font-size: 34px !important;
-    }
-
-    .error {
-        height: 82vh;
-    }
-     .error-txt h4 {
-    font-size: 90px;
-}
-    .error-btn {
-    top: 94%;
-        width: 280px;
-}
-    .error-btn .casino-btn a{
-        font-size: 22px;
-    }
-    .error-txt:before {
-    top: 85%;
-    left: 69%;
-    width: 400px;
-
-}
-
-    .location-txt {
-        padding-right: 60px;
-    }
-
     .tour-jack {
         margin-bottom: -60px;
     }
@@ -210,6 +171,10 @@ Author:         Ingenious_team
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
+
+    .mobile-view{
+        display: none;
+    }
     .title:before {
         left: 22px;
         top: -7px;
@@ -227,26 +192,6 @@ Author:         Ingenious_team
     .side_search {
         display: none;
     }
-
-    .error {
-        height: 82vh;
-    }
-     .error-txt h4 {
-    font-size: 90px;
-}
-    .error-btn {
-    top: 94%;
-        width: 280px;
-}
-    .error-btn .casino-btn a{
-        font-size: 22px;
-    }
-    .error-txt:before {
-    top: 86%;
-    left: 71%;
-    width: 400px;
-font-size: 28px;
-}
 
     .full_nav .nav > li > a {
         font-size: 14px;
@@ -319,13 +264,6 @@ font-size: 28px;
 
     p {
         font-size: 14px !important;
-    }
-
-    .control [class^="flaticon-"]:before,
-    .control [class*=" flaticon-"]:before,
-    .control [class^="flaticon-"]:after,
-    .control [class*=" flaticon-"]:after {
-        font-size: 52px !important;
     }
 
     .cont-bot {
@@ -454,13 +392,6 @@ font-size: 28px;
         font-size: 16px;
     }
 
-    .contact-app [class^="flaticon-"]:before,
-    .contact-app [class*=" flaticon-"]:before,
-    .contact-app [class^="flaticon-"]:after,
-    .contact-app [class*=" flaticon-"]:after {
-        font-size: 30px !important;
-    }
-
     .payments ul li {
         padding-bottom: 30px;
     }
@@ -497,28 +428,8 @@ font-size: 28px;
         padding-left: 0;
     }
 
-    .foot-menu ul li a {
-        font-size: 15px;
-    }
-
     .copy-right h6 {
         font-size: 14px;
-    }
-
-    .youtube_video {
-        left: 44%;
-    }
-
-    .youtube_video a i {
-        width: 70px;
-        height: 70px;
-        line-height: 70px;
-        font-size: 22px;
-        padding: 0 29px;
-    }
-
-    .foot-menu ul {
-        padding-bottom: 18px;
     }
 
     .header_area {
@@ -529,9 +440,6 @@ font-size: 28px;
         padding-bottom: 60px;
     }
 
-    .location-txt {
-        padding-right: 0px;
-    }
     .about-video img {
     width: 100%;
 }
@@ -667,13 +575,6 @@ font-size: 28px;
         margin-bottom: 30px;
     }
 
-    .control [class^="flaticon-"]:before,
-    .control [class*=" flaticon-"]:before,
-    .control [class^="flaticon-"]:after,
-    .control [class*=" flaticon-"]:after {
-        font-size: 55px !important;
-    }
-
     .fa-dice:before{
         font-size: 46px;
     }
@@ -685,6 +586,10 @@ font-size: 28px;
     .fa-ranking-star:before {
         font-size: 41px;
     }
+
+    .fa-wand-sparkles:before{
+        font-size: 45px;
+      }
 
     .fa-credit-card::before{
         font-size: 51px;
@@ -794,9 +699,6 @@ font-size: 28px;
         font-size: 18px;
         padding-bottom: 15px;
     }
-    .foot-menu{
-        padding-top: 20px;
-    }
     .contact-about,
     .faq-inner {
         padding-bottom: 40px;
@@ -823,16 +725,6 @@ font-size: 28px;
         width: 100%;
     }
 
-    .payments ul {
-        text-align: center;
-        display: inline-block;
-    }
-
-    .payments ul li {
-        padding-right: 2px;
-        padding-left: 2px;
-    }
-
     .bot-menu,
     .sub-form .col-sm-12 {
         padding-right: 0px;
@@ -843,11 +735,6 @@ font-size: 28px;
         width: 96%;
         text-align: center;
         display: inline-block;
-    }
-
-    .foot-menu ul li a {
-        font-size: 14px;
-        padding: 0 4px;
     }
 
     .copy-right h6 {
@@ -870,21 +757,6 @@ font-size: 28px;
     .header_area {
         background: none;
         height: 58px;
-    }
-
-    .youtube_video a i {
-        top: 48%;
-        left: 50%;
-        width: 70px;
-        height: 70px;
-        line-height: 70px;
-        font-size: 20px;
-        padding: 0 29px;
-    }
-
-    .youtube_video {
-        left: 41%;
-        top: 39%;
     }
 
     .about-video {
@@ -919,10 +791,6 @@ font-size: 28px;
         color: #fff;
     }
 
-    .foot-menu ul {
-        padding-bottom: 18px;
-    }
-
     .port_img .casino-btn a {
         padding: 13px 18px;
         font-size: 20px;
@@ -934,28 +802,6 @@ font-size: 28px;
 
     .tour-jack {
         margin-bottom: -50px;
-    }
-.error {
-        height: 83vh;
-    }
-     .error-txt h4 {
-    font-size: 90px;
-}
-    .error-btn {
-    top: 94%;
-        width: 280px;
-}
-    .error-btn .casino-btn a{
-        font-size: 22px;
-    }
-    .error-txt:before {
-    top: 85%;
-    left: 69%;
-    width: 400px;
-
-}
-    .location-txt {
-        padding-right: 0px;
     }
 
     .contact-about .border-effect1,
@@ -1033,14 +879,6 @@ font-size: 28px;
         line-height: 78px;
     }
 
-    .contact-app [class^="flaticon-"]:before,
-    .contact-app [class*=" flaticon-"]:before,
-    .contact-app [class^="flaticon-"]:after,
-    .contact-app [class*=" flaticon-"]:after {
-        margin-left: 0px !important;
-        font-size: 34px !important;
-    }
-
     .title:before {
         left: 46%;
     }
@@ -1079,11 +917,6 @@ font-size: 28px;
         text-align: center;
     }
 
-    .foot-menu ul li a {
-        font-size: 13px;
-        padding: 0 4px;
-    }
-
     .copy-right h6 {
         font-size: 13px;
     }
@@ -1092,14 +925,6 @@ font-size: 28px;
         width: 70px;
         height: 70px;
         line-height: 70px;
-    }
-
-    .contact-app [class^="flaticon-"]:before,
-    .contact-app [class*=" flaticon-"]:before,
-    .contact-app [class^="flaticon-"]:after,
-    .contact-app [class*=" flaticon-"]:after {
-        margin-left: 0px !important;
-        font-size: 32px !important;
     }
 
     #back-top-btn {
@@ -1135,16 +960,6 @@ font-size: 28px;
     .payments ul li img {
         width: 86%;
     }
-     .error-txt h4 {
-    font-size: 75px;
-}
-    .error-txt:before {
-        font-size: 26px;
-    top: 85%;
-    left: 65%;
-    width: 300px;
-
-}
 
 }
 
@@ -1163,10 +978,6 @@ font-size: 28px;
     }
     .heading{
         margin-bottom: 0px;
-    }
-    .control [class*=" flaticon-"]:before{
-        font-size: 40px;
-        /* margin-left: -2px !important; */
     }
     .fa-lock::before{
         font-size: 45px;
