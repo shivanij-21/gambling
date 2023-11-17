@@ -1840,6 +1840,10 @@ nav.navbar .container {
 .contact-page .casino-btn a:hover {
     filter: drop-shadow(0 0px 20px #0C356A);
 }
+
+/* .casino-btn{
+  margin-top: -160px;
+} */
 .contact-page .heading:after {
     width: 535px;
     left: 48%;
