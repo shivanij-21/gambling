@@ -566,6 +566,14 @@ font-size: 28px;
 
 @media only screen and (max-width: 767px) {
 
+    #jackpots{
+        padding-top: 0px
+      }
+
+      #free-spin{
+        padding-top: 0px
+      }
+
     .web-view{
         display: none;
     }
