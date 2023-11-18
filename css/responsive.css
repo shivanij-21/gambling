@@ -11,12 +11,17 @@ Author:         Ingenious_team
     .heading h2 {
         letter-spacing: 0;
     }
+    .error-txt h4 {
+    font-size: 110px;
+}
 }
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
+
     .mobile-view{
         display: none;
     }
+
     .side_search {
         width: 220px !important;
     }
@@ -107,7 +112,7 @@ Author:         Ingenious_team
     .jackpots {
         padding-bottom: 20px;
     }
-    
+
     .run-txt {
         top: 60%;
     }
@@ -154,6 +159,42 @@ Author:         Ingenious_team
         width: 55px;
     }
 
+    .foot-menu ul li a {
+        font-size: 16px;
+    }
+
+    .contact-app [class^="flaticon-"]:before,
+    .contact-app [class*=" flaticon-"]:before,
+    .contact-app [class^="flaticon-"]:after,
+    .contact-app [class*=" flaticon-"]:after {
+        margin-left: 0px !important;
+        font-size: 34px !important;
+    }
+
+    .error {
+        height: 82vh;
+    }
+     .error-txt h4 {
+    font-size: 90px;
+}
+    .error-btn {
+    top: 94%;
+        width: 280px;
+}
+    .error-btn .casino-btn a{
+        font-size: 22px;
+    }
+    .error-txt:before {
+    top: 85%;
+    left: 69%;
+    width: 400px;
+
+}
+
+    .location-txt {
+        padding-right: 60px;
+    }
+
     .tour-jack {
         margin-bottom: -60px;
     }
@@ -175,6 +216,7 @@ Author:         Ingenious_team
     .mobile-view{
         display: none;
     }
+
     .title:before {
         left: 22px;
         top: -7px;
@@ -192,6 +234,26 @@ Author:         Ingenious_team
     .side_search {
         display: none;
     }
+
+    .error {
+        height: 82vh;
+    }
+     .error-txt h4 {
+    font-size: 90px;
+}
+    .error-btn {
+    top: 94%;
+        width: 280px;
+}
+    .error-btn .casino-btn a{
+        font-size: 22px;
+    }
+    .error-txt:before {
+    top: 86%;
+    left: 71%;
+    width: 400px;
+font-size: 28px;
+}
 
     .full_nav .nav > li > a {
         font-size: 14px;
@@ -264,6 +326,13 @@ Author:         Ingenious_team
 
     p {
         font-size: 14px !important;
+    }
+
+    .control [class^="flaticon-"]:before,
+    .control [class*=" flaticon-"]:before,
+    .control [class^="flaticon-"]:after,
+    .control [class*=" flaticon-"]:after {
+        font-size: 52px !important;
     }
 
     .cont-bot {
@@ -392,6 +461,13 @@ Author:         Ingenious_team
         font-size: 16px;
     }
 
+    .contact-app [class^="flaticon-"]:before,
+    .contact-app [class*=" flaticon-"]:before,
+    .contact-app [class^="flaticon-"]:after,
+    .contact-app [class*=" flaticon-"]:after {
+        font-size: 30px !important;
+    }
+
     .payments ul li {
         padding-bottom: 30px;
     }
@@ -428,8 +504,28 @@ Author:         Ingenious_team
         padding-left: 0;
     }
 
+    .foot-menu ul li a {
+        font-size: 15px;
+    }
+
     .copy-right h6 {
         font-size: 14px;
+    }
+
+    .youtube_video {
+        left: 44%;
+    }
+
+    .youtube_video a i {
+        width: 70px;
+        height: 70px;
+        line-height: 70px;
+        font-size: 22px;
+        padding: 0 29px;
+    }
+
+    .foot-menu ul {
+        padding-bottom: 18px;
     }
 
     .header_area {
@@ -440,6 +536,9 @@ Author:         Ingenious_team
         padding-bottom: 60px;
     }
 
+    .location-txt {
+        padding-right: 0px;
+    }
     .about-video img {
     width: 100%;
 }
@@ -466,10 +565,6 @@ Author:         Ingenious_team
 }
 
 @media only screen and (max-width: 767px) {
-
-    /* .col-sm-4{
-        max-width: 33.333333%;
-    } */
 
     .web-view{
         display: none;
@@ -575,9 +670,21 @@ Author:         Ingenious_team
         margin-bottom: 30px;
     }
 
+    .control [class^="flaticon-"]:before,
+    .control [class*=" flaticon-"]:before,
+    .control [class^="flaticon-"]:after,
+    .control [class*=" flaticon-"]:after {
+        font-size: 55px !important;
+    }
+
     .fa-dice:before{
         font-size: 46px;
     }
+
+    .fa-wand-sparkles:before{
+        font-size: 45px;
+      }
+
 
     .fa-phone-volume:before{
         font-size: 45px;
@@ -586,10 +693,6 @@ Author:         Ingenious_team
     .fa-ranking-star:before {
         font-size: 41px;
     }
-
-    .fa-wand-sparkles:before{
-        font-size: 45px;
-      }
 
     .fa-credit-card::before{
         font-size: 51px;
@@ -658,10 +761,6 @@ Author:         Ingenious_team
     .free-spin {
         text-align: center;
     }
-    .img-fluid{
-        height: 2px;
-        width: 100%;
-    }
 
     .running-img .img-fluid {
         margin-bottom: 30px;
@@ -699,6 +798,9 @@ Author:         Ingenious_team
         font-size: 18px;
         padding-bottom: 15px;
     }
+    .foot-menu{
+        padding-top: 20px;
+    }
     .contact-about,
     .faq-inner {
         padding-bottom: 40px;
@@ -725,6 +827,16 @@ Author:         Ingenious_team
         width: 100%;
     }
 
+    .payments ul {
+        text-align: center;
+        display: inline-block;
+    }
+
+    .payments ul li {
+        padding-right: 2px;
+        padding-left: 2px;
+    }
+
     .bot-menu,
     .sub-form .col-sm-12 {
         padding-right: 0px;
@@ -735,6 +847,11 @@ Author:         Ingenious_team
         width: 96%;
         text-align: center;
         display: inline-block;
+    }
+
+    .foot-menu ul li a {
+        font-size: 14px;
+        padding: 0 4px;
     }
 
     .copy-right h6 {
@@ -757,6 +874,21 @@ Author:         Ingenious_team
     .header_area {
         background: none;
         height: 58px;
+    }
+
+    .youtube_video a i {
+        top: 48%;
+        left: 50%;
+        width: 70px;
+        height: 70px;
+        line-height: 70px;
+        font-size: 20px;
+        padding: 0 29px;
+    }
+
+    .youtube_video {
+        left: 41%;
+        top: 39%;
     }
 
     .about-video {
@@ -791,6 +923,10 @@ Author:         Ingenious_team
         color: #fff;
     }
 
+    .foot-menu ul {
+        padding-bottom: 18px;
+    }
+
     .port_img .casino-btn a {
         padding: 13px 18px;
         font-size: 20px;
@@ -802,6 +938,28 @@ Author:         Ingenious_team
 
     .tour-jack {
         margin-bottom: -50px;
+    }
+.error {
+        height: 83vh;
+    }
+     .error-txt h4 {
+    font-size: 90px;
+}
+    .error-btn {
+    top: 94%;
+        width: 280px;
+}
+    .error-btn .casino-btn a{
+        font-size: 22px;
+    }
+    .error-txt:before {
+    top: 85%;
+    left: 69%;
+    width: 400px;
+
+}
+    .location-txt {
+        padding-right: 0px;
     }
 
     .contact-about .border-effect1,
@@ -844,7 +1002,7 @@ Author:         Ingenious_team
 
     .title:before {
         position: absolute;
-        /* content: 'Exchange'; */
+        content: '';
         text-shadow: 21px 13px 2px #2c0b49;
         filter: drop-shadow(0 0 40px #68248c);
         left: 48%;
@@ -864,8 +1022,6 @@ Author:         Ingenious_team
 }
 
 @media (min-width: 381px) and (max-width: 575px) {
-
-    
     .btn-filter {
         padding: 10px 0px;
         font-size: 16px;
@@ -879,6 +1035,14 @@ Author:         Ingenious_team
         line-height: 78px;
     }
 
+    .contact-app [class^="flaticon-"]:before,
+    .contact-app [class*=" flaticon-"]:before,
+    .contact-app [class^="flaticon-"]:after,
+    .contact-app [class*=" flaticon-"]:after {
+        margin-left: 0px !important;
+        font-size: 34px !important;
+    }
+
     .title:before {
         left: 46%;
     }
@@ -890,9 +1054,7 @@ Author:         Ingenious_team
     .winner-name h5 {
         font-size: 12px !important;
     }
-    .jack_section{
-        padding-top: 100px !important;
-    }
+
     .section {
         padding-top: 60px;
     }
@@ -917,6 +1079,11 @@ Author:         Ingenious_team
         text-align: center;
     }
 
+    .foot-menu ul li a {
+        font-size: 13px;
+        padding: 0 4px;
+    }
+
     .copy-right h6 {
         font-size: 13px;
     }
@@ -925,6 +1092,14 @@ Author:         Ingenious_team
         width: 70px;
         height: 70px;
         line-height: 70px;
+    }
+
+    .contact-app [class^="flaticon-"]:before,
+    .contact-app [class*=" flaticon-"]:before,
+    .contact-app [class^="flaticon-"]:after,
+    .contact-app [class*=" flaticon-"]:after {
+        margin-left: 0px !important;
+        font-size: 32px !important;
     }
 
     #back-top-btn {
@@ -960,6 +1135,16 @@ Author:         Ingenious_team
     .payments ul li img {
         width: 86%;
     }
+     .error-txt h4 {
+    font-size: 75px;
+}
+    .error-txt:before {
+        font-size: 26px;
+    top: 85%;
+    left: 65%;
+    width: 300px;
+
+}
 
 }
 
@@ -978,6 +1163,10 @@ Author:         Ingenious_team
     }
     .heading{
         margin-bottom: 0px;
+    }
+    .control [class*=" flaticon-"]:before{
+        font-size: 40px;
+        /* margin-left: -2px !important; */
     }
     .fa-lock::before{
         font-size: 45px;
