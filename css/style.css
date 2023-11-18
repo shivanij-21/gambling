@@ -178,7 +178,7 @@ p {
 }
 
 .back-light {
-    background: #e4f1ffb8;
+    background: #e4f1ff;
 }
 
 .back-dark {
@@ -851,7 +851,7 @@ nav.navbar .container {
 
 .control-text {
     text-align: left;
-    color: #0174BE;
+    color: #0767a4;
 }
 
 .control-text h3 {
@@ -4138,3 +4138,6 @@ img {
   #free-spin{
     padding-top: 50px
   }
+  /* #contact-us{
+    padding-top: 50px
+  } */
