@@ -3917,6 +3917,10 @@ video {
     padding: 0.438em 1.875rem;
     font-size: 0.9rem;
   }
+
+  .mobile-view .swiper-slide a{
+    margin: 1.25rem 1.563rem 3.438rem 7.563rem;
+  }
   
   /* .swiper-slide a:hover {
     color: #005baa;
