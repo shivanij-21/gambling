@@ -3628,7 +3628,7 @@ video {
 .pass{
     float: right;
     margin-top: -22px;
-    margin-right: 14px
+    margin-right: 40px
 }
 .fa-check{
     float: right;
@@ -4132,3 +4132,22 @@ img {
   /* #contact-us{
     padding-top: 50px
   } */
+  .copy-icon{
+    margin-top: 0px;
+  }
+  .fa-check{
+    margin-top: 0px;
+  }
+  .check_1{
+    margin-top: -20px;
+  }
+  .copy_1{
+    float: right;
+    margin-right: -155px;
+    margin-top: 17px;
+  }
+  .check10{
+    float: right;
+    margin-right: -155px;
+    margin-top: 17px;
+  }
