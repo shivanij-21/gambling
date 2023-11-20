@@ -697,20 +697,11 @@ nav.navbar .container {
     position: relative;
 }
 
-.banner-center {
-    position: absolute;
-    top: 55%;
-    left: 0%;
-    width: 600px;
-    text-align: center;
-    transform: translateY(-50%);
-}
-
 .title {
     font-size: 106px;
     letter-spacing: -1px;
     line-height: 110px;
-    width: 570px;
+    /* width: 570px; */
     font-weight: 400;
     font-family: "Anton";
     background: -webkit-linear-gradient(#fcb503 46%, #e5881b 54%, #fcb11a);
@@ -731,7 +722,7 @@ nav.navbar .container {
 .banner_text h3 {
     font-size: 46px;
     line-height: 46px;
-    font-weight: 300;
+    /* font-weight: 300; */
     font-family: "Nunito";
     color: #fff;
     text-transform: capitalize;
@@ -741,7 +732,7 @@ nav.navbar .container {
 .banner_text p {
     font-size: 16px;
     line-height: 24px;
-    font-weight: 400;
+    font-weight: 600;
     font-family: "Nunito";
     color: #fff;
     text-transform: capitalize;
@@ -3587,8 +3578,8 @@ video {
 .banner-center {
     position: absolute;
     top: 55%;
-    left: 0%;
-    width: 600px;
+    left: 13%;
+    /* width: 570px; */
     text-align: center;
     transform: translateY(-50%);
 }

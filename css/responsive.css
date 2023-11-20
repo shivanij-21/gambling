@@ -14,12 +14,19 @@ Author:         Ingenious_team
     .error-txt h4 {
     font-size: 110px;
 }
+.banner-center{
+    left: 10%;
+}
 .swiper-slide a{
     margin: 1.25rem 1.563rem 1.438rem 12.563rem;
 }
 }
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
+
+    .banner-center{
+        left: 15%;
+    }
 
     .mobile-view{
         display: none;
@@ -1263,6 +1270,8 @@ font-size: 28px;
     }
 }
 
-@media (min-width:768px) {
-    
-}
+/* @media (min-width: 992px) {
+    .banner-center{
+        left: 28%;
+    }
+} */
