@@ -24,6 +24,10 @@ Author:         Ingenious_team
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
 
+    .pass{
+        margin-right: 32px;
+    }
+
     .banner-center{
         left: 15%;
     }
@@ -648,6 +652,19 @@ font-size: 28px;
 }
 
 @media only screen and (max-width: 767px) {
+
+
+    .copy_1{
+        margin-right: -132px;
+    }
+
+    .pass{
+        margin-right: 57px;
+    }
+
+    .check10{
+        margin-right: -134px;
+    }
 
     #jackpots{
         padding-top: 0px
