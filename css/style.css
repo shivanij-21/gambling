@@ -3578,7 +3578,7 @@ video {
 .banner-center {
     position: absolute;
     top: 55%;
-    left: 13%;
+    left: 15%;
     /* width: 570px; */
     text-align: center;
     transform: translateY(-50%);
@@ -3773,7 +3773,7 @@ video {
 /* our service */
 .our_service {
     position: relative;
-    width: calc(min(90rem, 90%));
+    width: calc(min(100rem, 100%));
     /* margin: 0 auto; */
     /* min-height: 100vh; */
     column-gap: 3rem;
@@ -3870,14 +3870,23 @@ video {
     bottom: 1.25rem !important;
   }
   
-  .swiper-slide {
+  /* .swiper-slide {
     width: 18.75rem;
     height: 28.125rem;
     display: flex;
     flex-direction: column;
     justify-content: end;
     align-items: self-start;
-  }
+  } */
+  .swiper-slide {
+    width: 18.75rem;
+    height: 28.125rem;
+    display: flex;
+    justify-content: center;
+    align-items: self-start;
+    flex-wrap: wrap;
+    align-content: flex-end;
+}
   
   .swiper-slide h2 {
     color: #fff;
@@ -3904,7 +3913,7 @@ video {
   }
   
   .swiper-slide a {
-    margin: 1.25rem 1.563rem 0.438rem 11.563rem;
+    /* margin: 1.25rem 1.563rem 2.438rem 14.563rem; */
     padding: 0.438em 1.875rem;
     font-size: 0.9rem;
   }
@@ -3929,64 +3938,64 @@ video {
   }
   
   .swiper-slide--one {
-    background: url("../images/our-service-web/cric1_2_513x450.webp") no-repeat 50% 50%/cover;
-    /* background-size: contain; */
+    background: url("../images/our-service-web/cric1.webp") no-repeat 50% 50%/cover;
+    background-size: contain;
   }
   
   .swiper-slide--two {
-    background: url("../images/our-service-web/bet12.webp") no-repeat 50% 50%/cover;
-    /* background-size: contain; */
+    background: url("../images/our-service-web/aura.webp") no-repeat 50% 50%/cover;
+    background-size: contain;
   }
   
   .swiper-slide--three {
-    background: url("../images/our-service-web/babu1_1_513x450.webp") no-repeat 50% 50%/cover;
-    /* background-size: contain; */
+    background: url("../images/our-service-web/babu1.webp") no-repeat 50% 50%/cover;
+    background-size: contain;
   }
   
   .swiper-slide--four {
-    background: url("../images/our-service-web/cric2_2_513x450.webp") no-repeat 50% 50%/cover;
-    /* background-size: contain; */
+    background: url("../images/our-service-web/cric2.webp") no-repeat 50% 50%/cover;
+    background-size: contain;
   }
   
   .swiper-slide--five {
-    background: url("../images/our-service-web/bet2_1_513x450.webp") no-repeat 50% 50%/cover;
-    /* background-size: contain; */
+    background: url("../images/our-service-web/bet2.webp") no-repeat 50% 50%/cover;
+    background-size: contain;
   }
   .swiper-slide--six {
-    background: url("../images/our-service-web/babu2_1_513x450.webp") no-repeat 50% 50%/cover;
-    /* background-size: contain; */
+    background: url("../images/our-service-web/babu2.webp") no-repeat 50% 50%/cover;
+    background-size: contain;
   }
   .swiper-slide--seven {
-    background: url("../images/our-service-web/cric3_2_513x450.webp") no-repeat 50% 50%/cover;
-    /* background-size: contain; */
+    background: url("../images/our-service-web/cric3.webp") no-repeat 50% 50%/cover;
+    background-size: contain;
   }
   .swiper-slide--eight {
-    background: url("../images/our-service-web/bet3_2_513x450.webp") no-repeat 50% 50%/cover;
-    /* background-size: contain; */
+    background: url("../images/our-service-web/bet3.webp") no-repeat 50% 50%/cover;
+    background-size: contain;
   }
   .swiper-slide--nine {
-    background: url("../images/our-service-web/babu3_1_513x450.webp") no-repeat 50% 50%/cover;
-    /* background-size: contain; */
+    background: url("../images/our-service-web/babu3.webp") no-repeat 50% 50%/cover;
+    background-size: contain;
   }
   .swiper-slide--ten {
-    background: url("../images/our-service-web/cric4_513x450.webp") no-repeat 50% 50%/cover;
-    /* background-size: contain; */
+    background: url("../images/our-service-web/cric4.webp") no-repeat 50% 50%/cover;
+    background-size: contain;
   }
   .swiper-slide--eleventh {
-    background: url("../images/our-service-web/bet4_2_513x450.webp") no-repeat 50% 50%/cover;
-    /* background-size: contain; */
+    background: url("../images/our-service-web/bet4.webp") no-repeat 50% 50%/cover;
+    background-size: contain;
   }
   .swiper-slide--twoventh {
-    background: url("../images/our-service-web/babu4_1_513x450.webp") no-repeat 50% 50%/cover;
-    /* background-size: contain; */
+    background: url("../images/our-service-web/babu4.webp") no-repeat 50% 50%/cover;
+    background-size: contain;
   }
   .swiper-slide--thirdteeth {
-    background: url("../images/our-service-web/cric5_513x450.webp") no-repeat 50% 50%/cover;
-    /* background-size: contain; */
+    background: url("../images/our-service-web/cric5.webp") no-repeat 50% 50%/cover;
+    background-size: contain;
   }
   .swiper-slide--fourteeth {
-    background: url("../images/our-service-web/babu4_1_513x450.webp") no-repeat 50% 50%/cover;
-    /* background-size: contain; */
+    background: url("../images/our-service-web/babu4.webp") no-repeat 50% 50%/cover;
+    background-size: contain;
   }
 
   .swiper-slide--one1 {
@@ -4150,4 +4159,20 @@ img {
     float: right;
     margin-right: -155px;
     margin-top: 17px;
+  }
+  @media (max-width:1500px) {
+    .banner-center{
+      left: 13%;
+    }
+    .our_service{
+      width: calc(min(76rem, 100%));
+    }
+      .swiper-slide {
+    width: 18.75rem;
+    height: 28.125rem;
+    display: flex;
+    /* flex-direction: column;
+    justify-content: end; */
+    align-items: self-start;
+  }
   }

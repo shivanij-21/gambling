@@ -18,7 +18,7 @@ Author:         Ingenious_team
     left: 10%;
 }
 .swiper-slide a{
-    margin: 1.25rem 1.563rem 1.438rem 12.563rem;
+    margin: 1.25rem 1.563rem 2.438rem 12.563rem;
 }
 }
 
@@ -45,8 +45,9 @@ Author:         Ingenious_team
     }
 
     .swiper-slide a{
-        margin: 1.25rem 1.563rem 1.438rem 9.563rem;
+        margin: 1.25rem 1.563rem 4.438rem 10.563rem;
     }
+
 
     .swiper-slide--one{
         background-size: contain;
@@ -1271,7 +1272,8 @@ font-size: 28px;
 }
 
 /* @media (min-width: 992px) {
-    .banner-center{
-        left: 28%;
+    .contain{
+        max-width: 960px;
     }
+
 } */
