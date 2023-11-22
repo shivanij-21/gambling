@@ -250,14 +250,6 @@ Author:         Ingenious_team
         font-size: 16px;
     }
 
-    .contact-app [class^="flaticon-"]:before,
-    .contact-app [class*=" flaticon-"]:before,
-    .contact-app [class^="flaticon-"]:after,
-    .contact-app [class*=" flaticon-"]:after {
-        margin-left: 0px !important;
-        font-size: 34px !important;
-    }
-
     .error {
         height: 82vh;
     }
@@ -415,13 +407,6 @@ font-size: 28px;
         font-size: 14px !important;
     }
 
-    .control [class^="flaticon-"]:before,
-    .control [class*=" flaticon-"]:before,
-    .control [class^="flaticon-"]:after,
-    .control [class*=" flaticon-"]:after {
-        font-size: 52px !important;
-    }
-
     .cont-bot {
         margin-bottom: 30px;
     }
@@ -546,13 +531,6 @@ font-size: 28px;
 
     .contact-app li {
         font-size: 16px;
-    }
-
-    .contact-app [class^="flaticon-"]:before,
-    .contact-app [class*=" flaticon-"]:before,
-    .contact-app [class^="flaticon-"]:after,
-    .contact-app [class*=" flaticon-"]:after {
-        font-size: 30px !important;
     }
 
     .payments ul li {
@@ -776,13 +754,6 @@ font-size: 28px;
 
     .cont-bot {
         margin-bottom: 30px;
-    }
-
-    .control [class^="flaticon-"]:before,
-    .control [class*=" flaticon-"]:before,
-    .control [class^="flaticon-"]:after,
-    .control [class*=" flaticon-"]:after {
-        font-size: 55px !important;
     }
 
     .fa-dice:before{
@@ -1143,14 +1114,6 @@ font-size: 28px;
         line-height: 78px;
     }
 
-    .contact-app [class^="flaticon-"]:before,
-    .contact-app [class*=" flaticon-"]:before,
-    .contact-app [class^="flaticon-"]:after,
-    .contact-app [class*=" flaticon-"]:after {
-        margin-left: 0px !important;
-        font-size: 34px !important;
-    }
-
     .title:before {
         left: 46%;
     }
@@ -1200,14 +1163,6 @@ font-size: 28px;
         width: 70px;
         height: 70px;
         line-height: 70px;
-    }
-
-    .contact-app [class^="flaticon-"]:before,
-    .contact-app [class*=" flaticon-"]:before,
-    .contact-app [class^="flaticon-"]:after,
-    .contact-app [class*=" flaticon-"]:after {
-        margin-left: 0px !important;
-        font-size: 32px !important;
     }
 
     #back-top-btn {
@@ -1272,13 +1227,9 @@ font-size: 28px;
     .heading{
         margin-bottom: 0px;
     }
-    .control [class*=" flaticon-"]:before{
-        font-size: 40px;
-        /* margin-left: -2px !important; */
-    }
-    .fa-lock::before{
+    /* .fa-lock::before{
         font-size: 45px;
-    }
+    } */
     .control-img{
         padding: 22px 6px;
     }
