@@ -11,101 +11,104 @@ Author:         Ingenious_team
     .heading h2 {
         letter-spacing: 0;
     }
+
     .error-txt h4 {
-    font-size: 110px;
-}
-.banner-center{
-    left: 10%;
-}
-.swiper-slide a{
-    margin: 1.25rem 1.563rem 2.438rem 12.563rem;
-}
+        font-size: 110px;
+    }
+
+    .banner-center {
+        left: 10%;
+    }
+
+    .swiper-slide a {
+        margin: 1.25rem 1.563rem 2.438rem 12.563rem;
+    }
 }
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
 
-    .pass{
+    .pass {
         margin-right: 32px;
     }
 
-    .banner-center{
+    .banner-center {
         left: 15%;
     }
 
-    .mobile-view{
+    .mobile-view {
         display: none;
     }
 
-    .front{
+    .front {
         width: 192px;
     }
 
-    .back{
+    .back {
         width: 192px;
     }
 
-    .flip-container{
+    .flip-container {
         width: 192px;
     }
 
-    .swiper-slide a{
+    .swiper-slide a {
         margin: 1.25rem 1.563rem 4.438rem 10.563rem;
     }
 
 
-    .swiper-slide--one{
+    .swiper-slide--one {
         background-size: contain;
     }
 
-    .swiper-slide--two{
+    .swiper-slide--two {
         background-size: contain;
     }
 
-    .swiper-slide--three{
+    .swiper-slide--three {
         background-size: contain;
     }
 
-    .swiper-slide--four{
+    .swiper-slide--four {
         background-size: contain;
     }
 
-    .swiper-slide--five{
+    .swiper-slide--five {
         background-size: contain;
     }
 
-    .swiper-slide--six{
+    .swiper-slide--six {
         background-size: contain;
     }
 
-    .swiper-slide--seven{
+    .swiper-slide--seven {
         background-size: contain;
     }
 
-    .swiper-slide--eight{
+    .swiper-slide--eight {
         background-size: contain;
     }
 
-    .swiper-slide--nine{
+    .swiper-slide--nine {
         background-size: contain;
     }
 
-    .swiper-slide--ten{
+    .swiper-slide--ten {
         background-size: contain;
     }
 
-    .swiper-slide--eleventh{
+    .swiper-slide--eleventh {
         background-size: contain;
     }
 
-    .swiper-slide--twoventh{
+    .swiper-slide--twoventh {
         background-size: contain;
     }
 
-    .swiper-slide--thirdteeth{
+    .swiper-slide--thirdteeth {
         background-size: contain;
     }
 
-    .swiper-slide--fourteeth{
+    .swiper-slide--fourteeth {
         background-size: contain;
     }
 
@@ -113,12 +116,12 @@ Author:         Ingenious_team
         width: 220px !important;
     }
 
-    .full_nav .nav > li > a {
+    .full_nav .nav>li>a {
         font-size: 16px;
         padding: 9px 4px 10px;
     }
 
-    .full_nav .nav > li:last-child {
+    .full_nav .nav>li:last-child {
         top: 11px;
     }
 
@@ -253,22 +256,26 @@ Author:         Ingenious_team
     .error {
         height: 82vh;
     }
-     .error-txt h4 {
-    font-size: 90px;
-}
+
+    .error-txt h4 {
+        font-size: 90px;
+    }
+
     .error-btn {
-    top: 94%;
+        top: 94%;
         width: 280px;
-}
-    .error-btn .casino-btn a{
+    }
+
+    .error-btn .casino-btn a {
         font-size: 22px;
     }
-    .error-txt:before {
-    top: 85%;
-    left: 69%;
-    width: 400px;
 
-}
+    .error-txt:before {
+        top: 85%;
+        left: 69%;
+        width: 400px;
+
+    }
 
     .location-txt {
         padding-right: 60px;
@@ -285,14 +292,15 @@ Author:         Ingenious_team
     .contact-us .heading h2 {
         font-size: 28px;
     }
+
     .subscribe input {
-    height: 49px;
-}
+        height: 49px;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
 
-    .mobile-view{
+    .mobile-view {
         display: none;
     }
 
@@ -317,29 +325,33 @@ Author:         Ingenious_team
     .error {
         height: 82vh;
     }
-     .error-txt h4 {
-    font-size: 90px;
-}
+
+    .error-txt h4 {
+        font-size: 90px;
+    }
+
     .error-btn {
-    top: 94%;
+        top: 94%;
         width: 280px;
-}
-    .error-btn .casino-btn a{
+    }
+
+    .error-btn .casino-btn a {
         font-size: 22px;
     }
-    .error-txt:before {
-    top: 86%;
-    left: 71%;
-    width: 400px;
-font-size: 28px;
-}
 
-    .full_nav .nav > li > a {
+    .error-txt:before {
+        top: 86%;
+        left: 71%;
+        width: 400px;
+        font-size: 28px;
+    }
+
+    .full_nav .nav>li>a {
         font-size: 14px;
         padding: 10px 0px;
     }
 
-    .full_nav .nav > li:last-child {
+    .full_nav .nav>li:last-child {
         right: 210px;
         top: 17px;
         height: 38px;
@@ -353,11 +365,11 @@ font-size: 28px;
         margin-left: -5px !important;
     }
 
-    .full_nav .nav > li {
+    .full_nav .nav>li {
         margin: 0 4px;
     }
 
-    .full_nav .nav > li:last-child .fa-times {
+    .full_nav .nav>li:last-child .fa-times {
         top: 7px;
         font-size: 22px;
     }
@@ -428,18 +440,20 @@ font-size: 28px;
     }
 
     .project-img .nav-menu {
-    font-size: 16px;
-}
+        font-size: 16px;
+    }
 
-    
+
     .casino-btn a {
         font-size: 17px;
         padding: 13px 18px;
     }
-.port_img .casino-btn a {
+
+    .port_img .casino-btn a {
         padding: 13px 12px;
         font-size: 18px;
     }
+
     .port-text-btm {
         top: 106px;
     }
@@ -604,63 +618,70 @@ font-size: 28px;
     .location-txt {
         padding-right: 0px;
     }
+
     .about-video img {
-    width: 100%;
-}
-    .about-page .heading img{
         width: 100%;
     }
-    .about-page .heading{
+
+    .about-page .heading img {
+        width: 100%;
+    }
+
+    .about-page .heading {
         padding-top: 60px;
     }
-.header-nav .navbar-brand {
-    margin-right: 7px;
-}
-    .start-text,
-    .start-img{
-        text-align: center;
-    display: inline-block;
+
+    .header-nav .navbar-brand {
+        margin-right: 7px;
     }
-    .dropdown-menu > li {
-    padding: 2px 10px;
-}
-    .dropdown-menu > li > a {
-    font-size: 15px;
-}
+
+    .start-text,
+    .start-img {
+        text-align: center;
+        display: inline-block;
+    }
+
+    .dropdown-menu>li {
+        padding: 2px 10px;
+    }
+
+    .dropdown-menu>li>a {
+        font-size: 15px;
+    }
 }
 
 @media only screen and (max-width: 767px) {
 
 
-    .copy_1{
+    .copy_1 {
         margin-right: -132px;
     }
 
-    .pass{
+    .pass {
         margin-right: 57px;
     }
 
-    .check10{
+    .check10 {
         margin-right: -134px;
     }
 
-    #jackpots{
+    #jackpots {
         padding-top: 0px
-      }
+    }
 
-      #free-spin{
+    #free-spin {
         padding-top: 0px
-      }
+    }
 
-    .web-view{
+    .web-view {
         display: none;
     }
 
-    .live_logo{
+    .live_logo {
         width: 91%;
         margin-left: 14px;
     }
-    
+
     .in-project {
         padding-bottom: 0;
     }
@@ -668,7 +689,7 @@ font-size: 28px;
     .side_search {
         position: relative !important;
         top: 0 !important;
-        margin-top: 3px!important;
+        margin-top: 3px !important;
     }
 
     .dropdown-menu {
@@ -756,16 +777,16 @@ font-size: 28px;
         margin-bottom: 30px;
     }
 
-    .fa-dice:before{
+    .fa-dice:before {
         font-size: 46px;
     }
 
-    .fa-wand-sparkles:before{
+    .fa-wand-sparkles:before {
         font-size: 45px;
-      }
+    }
 
 
-    .fa-phone-volume:before{
+    .fa-phone-volume:before {
         font-size: 45px;
     }
 
@@ -773,12 +794,13 @@ font-size: 28px;
         font-size: 41px;
     }
 
-    .fa-credit-card::before{
+    .fa-credit-card::before {
         font-size: 51px;
-      }
-      .fa-lock::before{
+    }
+
+    .fa-lock::before {
         font-size: 55px;
-      }
+    }
 
     .start-text h3 {
         margin-bottom: 3px;
@@ -797,13 +819,16 @@ font-size: 28px;
         font-size: 16px;
         margin-bottom: 6px;
     }
-.control-text p {
-    line-height: 20px;
-}
+
+    .control-text p {
+        line-height: 20px;
+    }
+
     .free-spin {
-    padding-bottom: 60px;
-    background-position-x: left;
-}
+        padding-bottom: 60px;
+        background-position-x: left;
+    }
+
     .heading h3,
     .heading h2 {
         font-size: 28px;
@@ -819,14 +844,16 @@ font-size: 28px;
     .project-img .nav-menu {
         font-size: 14px;
         padding: 6px 10px;
-}
-    .pro-row{
+    }
+
+    .pro-row {
         padding-bottom: 30px;
     }
+
     .project-img .nav-pills {
-    text-align: center;
+        text-align: center;
         display: contents;
-}
+    }
 
     .winner-name h5 {
         font-size: 13px;
@@ -877,9 +904,11 @@ font-size: 28px;
         font-size: 18px;
         padding-bottom: 15px;
     }
-    .foot-menu{
+
+    .foot-menu {
         padding-top: 20px;
     }
+
     .contact-about,
     .faq-inner {
         padding-bottom: 40px;
@@ -942,14 +971,16 @@ font-size: 28px;
     }
 
     .project-img {
-        padding-bottom: 60px;        
+        padding-bottom: 60px;
     }
+
     .contact-page,
     .faq,
     .project-img,
-    .tour-jack{
+    .tour-jack {
         padding-top: 40px;
     }
+
     .header_area {
         background: none;
         height: 58px;
@@ -989,7 +1020,7 @@ font-size: 28px;
         text-align: center;
     }
 
-    #cssmenu > ul > li > a {
+    #cssmenu>ul>li>a {
         padding: 14px;
     }
 
@@ -997,7 +1028,7 @@ font-size: 28px;
         font-size: 14px;
     }
 
-    #cssmenu > ul > li:hover > a,
+    #cssmenu>ul>li:hover>a,
     #cssmenu ul li.active a {
         color: #fff;
     }
@@ -1018,25 +1049,31 @@ font-size: 28px;
     .tour-jack {
         margin-bottom: -50px;
     }
-.error {
+
+    .error {
         height: 83vh;
     }
-     .error-txt h4 {
-    font-size: 90px;
-}
+
+    .error-txt h4 {
+        font-size: 90px;
+    }
+
     .error-btn {
-    top: 94%;
+        top: 94%;
         width: 280px;
-}
-    .error-btn .casino-btn a{
+    }
+
+    .error-btn .casino-btn a {
         font-size: 22px;
     }
-    .error-txt:before {
-    top: 85%;
-    left: 69%;
-    width: 400px;
 
-}
+    .error-txt:before {
+        top: 85%;
+        left: 69%;
+        width: 400px;
+
+    }
+
     .location-txt {
         padding-right: 0px;
     }
@@ -1198,43 +1235,48 @@ font-size: 28px;
     .payments ul li img {
         width: 86%;
     }
-     .error-txt h4 {
-    font-size: 75px;
-}
+
+    .error-txt h4 {
+        font-size: 75px;
+    }
+
     .error-txt:before {
         font-size: 26px;
-    top: 85%;
-    left: 65%;
-    width: 300px;
+        top: 85%;
+        left: 65%;
+        width: 300px;
+
+    }
 
 }
 
-}
-
-@media screen and (max-width: 767px){
-    .title1{
+@media screen and (max-width: 767px) {
+    .title1 {
         max-width: 128px;
     }
 }
 
 @media screen and (max-width:653px) {
-    .casino-btn a{
+    .casino-btn a {
         font-size: 22px;
     }
-    .heading h2{
+
+    .heading h2 {
         font-size: 24px;
     }
-    .heading{
+
+    .heading {
         margin-bottom: 0px;
     }
+
     /* .fa-lock::before{
         font-size: 45px;
     } */
-    .control-img{
+    .control-img {
         padding: 22px 6px;
     }
-    
-    .contain{
+
+    .contain {
         padding-top: 0px;
     }
 }
