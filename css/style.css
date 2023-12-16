@@ -2879,3 +2879,86 @@ img {
     align-items: self-start;
   }
 }
+
+/* pop up */
+.popup-container {
+	display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+    animation: zoomOut 0.5s ease-out; /* Add animation property */
+	z-index: 1000;
+
+}
+
+.popup-content {
+    /* background: #fff; */
+    padding: 0;
+    text-align: center;
+	  max-width: 40%;
+    margin: 20px;
+    border-radius: 8px;
+    position: relative;
+	  z-index: 1000;
+}
+@media (max-width: 768px) {
+    .popup-content {
+        max-width: 100%; /* Set max-width to 100% for smaller screens */
+    }
+}
+
+.close-btn {
+	position: absolute;
+    top: -50px;
+    right: 15px;
+    font-size: 50px;
+    cursor: pointer;
+    width: 10px;
+    color: white;
+    margin-top: -12px;
+}
+
+@keyframes zoomOut {
+  from {
+      transform: scale(1.5);
+      opacity: 0;
+  }
+  to {
+      transform: scale(1);
+      opacity: 1;
+  }
+}
+.twinkling {
+  animation: twinkling 1.4s ease infinite
+}
+
+@keyframes twinkling {
+
+
+  0% {
+      color: red;
+  }
+
+  50% {
+      color: #ff0;
+  }
+
+  100% {
+      color: #00f;
+  }
+}
+
+/* Apply the animation to the text */
+.blink-text {
+animation: twinkling 1.4s ease infinite;
+
+}
+/* .popup-img{
+  height: 550px;
+  width: 700px;
+} */

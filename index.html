@@ -1165,6 +1165,17 @@
 	</div>
 	<!-- Casino Contact End -->
 
+	<div id="popup-container" class="popup-container">
+        <div class="popup-content">
+            <span class="close-btn" onclick="closePopup()">&times;</span>
+			<a href="https://parlay.vrnlexch.com/" target="_blank">
+				<img class="popup-img" src="images/popup.webp" alt="">
+			</a>
+      
+            <!-- <button onclick="closePopup()">Close</button> -->
+        </div>
+    </div>
+
 	<!-- jQuery -->
 	<script src="js/jquery-3.2.1.min.js" defer></script>
 
@@ -1223,6 +1234,25 @@
 					copyIcon.style.display = 'inline'; // Show the fa-copy icon after 2 seconds
 				}, 2000);
 			}
+		}
+	</script>
+	
+	<script>
+		document.addEventListener("DOMContentLoaded", function () {
+			// Show the popup on page load
+			showPopup();
+		});
+
+		// Function to display the popup
+		function showPopup() {
+			var popupContainer = document.getElementById("popup-container");
+			popupContainer.style.display = "flex";
+		}
+
+		// Function to close the popup
+		function closePopup() {
+			var popupContainer = document.getElementById("popup-container");
+			popupContainer.style.display = "none";
 		}
 	</script>
 
