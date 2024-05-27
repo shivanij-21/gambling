@@ -2243,7 +2243,7 @@ video {
 
 /* card */
 .col-sm-4 {
-  max-width: 19.333333%;
+  max-width: 24.333333%;
 }
 
 @media screen and (max-width:767px) {
@@ -2962,3 +2962,7 @@ animation: twinkling 1.4s ease infinite;
   height: 550px;
   width: 700px;
 } */
+
+.babu-text{
+  margin-top: 46px !important;
+}
